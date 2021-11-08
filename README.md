@@ -12,8 +12,8 @@ We are a friendly, collaborative group and look forward to working together.
 Other Documents
 
 - [How to Contribute](https://github.com/cloudwego/community/blob/master/CONTRIBUTING.md) - guidelines and advice on becoming a contributor
-- [Community membership](https://github.com/cloudwego/community/blob/master/COMMUNITY_MEMBERSHIP.md) - describes the various responsibilities of contributor roles in the Dapr community
-- [Development Guide](https://www.cloudwego.io/docs/getting-started/) - describes how to get involved with Dapr development
+- [Community membership](https://github.com/cloudwego/community/blob/master/COMMUNITY_MEMBERSHIP.md) - describes the various responsibilities of contributor roles in the CloudWeGo community
+- [Development Guide](https://www.cloudwego.io/docs/getting-started/) - describes how to get involved with CloudWeGo development
 
 ## Introduction
 
@@ -43,7 +43,9 @@ Reach out with any questions you may have and we'll make sure to answer them as 
 
 Coming soon.
 
-### Dapr blog
+### 
+
+blog
 
 The [CloudWeGo blog](https://www.cloudwego.io/blog/) has regular posts on releases, technical articles and upcoming events. 
 If you would like to author a post, reach out to us with a suggestion.
