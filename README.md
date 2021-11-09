@@ -11,8 +11,8 @@ We are a friendly, collaborative group and look forward to working together.
 
 Other Documents
 
-- [How to Contribute](https://github.com/cloudwego/community/blob/master/CONTRIBUTING.md) - guidelines and advice on becoming a contributor
-- [Community membership](https://github.com/cloudwego/community/blob/master/COMMUNITY_MEMBERSHIP.md) - describes the various responsibilities of contributor roles in the CloudWeGo community
+- [How to Contribute](https://github.com/cloudwego/community/blob/main/CONTRIBUTING.md) - guidelines and advice on becoming a contributor
+- [Community membership](https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md) - describes the various responsibilities of contributor roles in the CloudWeGo community
 - [Development Guide](https://www.cloudwego.io/docs/getting-started/) - describes how to get involved with CloudWeGo development
 
 ## Introduction
@@ -60,4 +60,4 @@ If you're a developer, read the [development guide](https://www.cloudwego.io/doc
 
 ## Code of Conduct
 
-This project has adopted the [Contributor Covenant Code of Conduct](https://github.com/cloudwego/community/blob/master/CODE_OF_CONDUCT.md)
+This project has adopted the [Contributor Covenant Code of Conduct](https://github.com/cloudwego/community/blob/main/CODE_OF_CONDUCT.md)
