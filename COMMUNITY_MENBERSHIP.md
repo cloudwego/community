@@ -33,7 +33,7 @@ Members are continuously active contributors in the community.
   - Filing or commenting on issues on GitHub
   - Contributing to sub-projects, or community discussions (e.g. meetings, chat, etc.)
 - Have read the contributor guide
-- Actively contributing to 1 or more sub-projects
+- For those subprojects (kitex, netpoll, thriftgo), at least one contribution to a new feature is a must
 - Sponsored by two approvers or maintainers (sponsors). Note the following requirements for sponsors:
   - Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc
 - Sponsors must be approvers or maintainers in at least one CODEOWNERS file in any repo in the CloudWeGo organization
