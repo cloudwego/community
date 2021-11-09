@@ -1,7 +1,7 @@
 # Community membership
 
 This doc outlines the responsibilities of contributor roles in CloudWeGo. 
-The CloudWeGo project is subdivided into sub-projects under kitex (kitex & kitex-benchmark & kitex-example), netpoll(netpoll & netpoll-benchmark), thriftgo(thriftgo & thfit-gen-validator), docs(cloudwego.github.io & community) and others if may. 
+The CloudWeGo project is subdivided into sub-projects under kitex (kitex & kitex-benchmark & kitex-example), netpoll(netpoll & netpoll-benchmark), thriftgo(thriftgo & thrfit-gen-validator), docs(cloudwego.github.io & community) and others if may. 
 Responsibilities for roles are scoped to these sub-projects (repos).
 
 | **Role**   | **Responsibilities**                                  | **Requirements**                                             | **Defined by**                                               |
