@@ -43,9 +43,7 @@ Reach out with any questions you may have and we'll make sure to answer them as 
 
 Coming soon.
 
-### 
-
-blog
+### blog
 
 The [CloudWeGo blog](https://www.cloudwego.io/blog/) has regular posts on releases, technical articles and upcoming events. 
 If you would like to author a post, reach out to us with a suggestion.
