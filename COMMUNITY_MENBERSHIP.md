@@ -6,7 +6,7 @@ Responsibilities for roles are scoped to these sub-projects (repos).
 
 | **Role**   | **Responsibilities**                                  | **Requirements**                                             | **Defined by**                                               |
 | ---------- | ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Member     | Active contributor in the community.  Reviewer of PRs | Sponsored by two approvers or maintainers. Multiple contributions to the project. | Dapr GitHub org member|
+| Member     | Active contributor in the community.  Reviewer of PRs | Sponsored by two approvers or maintainers. Multiple contributions to the project. | GitHub org member|
 | Approver   | Approve accepting contributions                       | Highly experienced and active reviewer and contributor to a subproject.           | CODEOWNERS in GitHub |
 | Maintainer | Set direction and priorities for a subproject         | Demonstrated responsibility and excellent technical judgement for the subproject. | CODEOWNERS, GitHub Team and repo ownership in GitHub |
 
