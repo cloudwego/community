@@ -56,7 +56,7 @@ One of the easiest ways to contribute is to participate in discussions at commun
 
 If you're looking for something to work on, read the contribution guidelines and then you start by looking for GitHub issues, marked with "Good First Issue" or the "Help Wanted" labels:
 
-And, we can always use more testing, have more and improved docs, or just write a blog post on what you have discovered whilst using Dapr.
+And, we can always use more testing, have more and improved docs, or just write a blog post on what you have discovered while using CloudWeGo.
 
 If you're a developer, read the [development guide](https://www.cloudwego.io/docs/getting-started/) for help on how to get started.
 
