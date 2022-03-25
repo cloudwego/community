@@ -13,7 +13,7 @@ e.g. (at)example_user
 
 ### Requirements
 
-- [ ] I have reviewed the community membership guidelines (https://github.com/cloudwego/community/blob/master/community-membership.md)
+- [ ] I have reviewed the community membership guidelines (https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md)
 - [ ] I have joined to the [Slack Channel](https://join.slack.com/t/cloudwego/shared_invite/zt-tmcbzewn-UjXMF3ZQsPhl7W3tEDZboA) and Feishu Group Chat (for Chinese)
 - [ ] I am contributing (any of the following apply: issues, discussions, PRs, reviews) to 1 or more CloudWeGo repositories
 
