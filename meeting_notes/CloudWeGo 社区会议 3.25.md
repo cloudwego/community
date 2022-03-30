@@ -1,6 +1,7 @@
 会议主题：CloudWeGo 社区会议第三期
 
-会前必读：http://www.cloudwego.io/https://github.com/cloudwego
+会前必读：http://www.cloudwego.io/；
+         https://github.com/cloudwego
 
 ## 议程 1 ：新成员自我介绍
 
