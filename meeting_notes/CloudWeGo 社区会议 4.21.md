@@ -1,6 +1,6 @@
 **会议主题：** CloudWeGo 社区会议 4.21
 
-**参会人员：** YangruiEmma, liu-song, baiyutang, yccpt, AshleeT, CoderPoet, Quan Hu, li-jin-gou, JZK-Keven, EastHorse, GuangmingLuo, HeyJavaBean, jayantxie, Qiheng Zhou, Shizheng Hou, Jiajun Shan, Tieju Wang, yiyun, Wanqi Su, Zheming Li, Xianjie Yao, LoveScotty.
+**参会人员：** YangruiEmma, liu-song, baiyutang, yccpt, AshleeT, CoderPoet, Quan Hu, li-jin-gou, JZK-Keven, EastHorse, GuangmingLuo, HeyJavaBean, jayantxie, ppzqh, Shizheng Hou, andrewshan, simon0-o, yiyun, Wanqi Su, Zheming Li, Xianjie Yao, LoveScotty.
 
 **会前必读：** http://www.cloudwego.io/;
               https://github.com/cloudwego
