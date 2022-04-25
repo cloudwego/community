@@ -30,7 +30,7 @@
 
 （@baiyutang 负责介绍）
 
-1. **介绍：**[Kitex 源码解析文档](https://eqdqs8cqx6.feishu.cn/docs/doccnMNWfHJA94g1QqjhduMP2Eg?from=from_copylink)主要包含六大模块：学习资料、设计理念、目标、课题、解读思路、产出形式。
+1. **介绍：** 源码解析活动方案草案主要包含六大模块：学习资料、设计理念、目标、课题、解读思路、产出形式。
    
    a. “目标”：① 作为 Contributer 的学习产出；② 作为框架新人的学习资料；③ 丰富社区资源和内容，提高 Kitex 的知名度。
    
@@ -44,7 +44,7 @@
 
 （@li-jin-gou  负责介绍）
 
-1. **背景介绍：** 我们希望将 [Demo(Easy-Note) ](https://github.com/cloudwego/kitex-examples/pull/27)正常部署到阿里云，主要的工作是验证 Kitex 接入阿里云的 ARMS 的链路追踪 和 MSE 的 Nacos 注册中心。
+1. **背景介绍：** 我们希望将 [Demo(Easy-Note) ](https://github.com/cloudwego/kitex-examples/pull/27)部署到阿里云，主要的工作是验证 Kitex 接入阿里云的 ARMS 的链路追踪 和 MSE 的 Nacos 注册中心。
 
 2. **工作开展：** 目前主要进行了 Kitex Nacos 扩展改造，包括改造初始化方式、设置环境变量和默认值、自定义 Logger 注入等。
 
@@ -54,7 +54,7 @@
 
 （@jayantxie 负责介绍)
 
-1. **背景介绍：** 为方便 Kitex 用户上云，计划对接腾讯的开源服务治理平台 Polaris，通过集成 [go sdk](https://github.com/polarismesh/polaris-go/tree/main/examples/quickstart)，满足诸如服务注册发现、熔断限流和动态路由等 Polaris 平台的治理能力。
+1. **背景介绍：** 为方便 Kitex 用户上云，计划对接腾讯的开源服务治理平台 Polaris，通过集成 [go sdk](https://github.com/polarismesh/polaris-go/tree/main/examples/quickstart)，满足诸如熔断限流和动态路由等 Polaris 平台的治理能力。
 
 2. **方案介绍：** 目前存在两种方案设计，二者之间的区别主要体现在接入方式的不同。由于我们需要结合两个框架，此时必然会有一个框架的接口需要被调整改动。其中，方案一，倾向于保留 Kitex 现有框架的设计；方案二，倾向于保留 Polaris 的接口。经过讨论，决定采用方案一，详见 [Issue](https://github.com/cloudwego/kitex/issues/421)。
 
@@ -74,7 +74,7 @@ A：目前还没有对接服务治理，我们的规划是：第一阶段支持�
 
 **Q：单测每次 CI 都会出报告吗？上次想加到 awesome go ，但是他们对覆盖度有要求。**
 
-A：可以点进 CI 的 Show all checks 查看测试报告，同时，在[单测新手任务](https://github.com/cloudwego/kitex/issues/372)，项目整体的单测覆盖率提高之后，我们也可以去设置覆盖率的门禁，后续 CI 检测会去检查单测覆盖率，并且输出到 PR 评论中。
+A：可以点进 CI 的 Show all checks 查看测试报告，同时，在[单测新手任务](https://github.com/cloudwego/kitex/issues/372)完成之后，项目整体的单测覆盖率提高之后，我们也可以去设置覆盖率的门禁，后续 CI 检测会去检查单测覆盖率，并且输出到 PR 评论中。
 
 ## 相关资讯
 
