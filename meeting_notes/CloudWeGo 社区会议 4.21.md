@@ -64,9 +64,9 @@
 
 **Q：我们是否也要把对接阿里云的相关基础设施统一放在一个 Suite 里面？**
 
-A:目前还没有对接服务治理，我们的规划是：第一阶段支持注册中心和可观测系统的接入。比如，对Nacos 注册中心这块做了一些无侵入式配置的扩展对接，然后我们通过 OpenTelemetry 去接入阿里云的可观测系统；第二阶段，我们准备通过 Middleware 或 Suite 的方式对接开放服务治理的能力。现阶段的工作主要是对 Kitex 的 [Nacos registry](https://github.com/kitex-contrib/registry-nacos) 展开了优化，然后结合  OpenTelemetry 这一扩展，去重构 Kitex Easy-Note  Demo。
+A：目前还没有对接服务治理，我们的规划是：第一阶段支持注册中心和可观测系统的接入。比如，对Nacos 注册中心这块做了一些无侵入式配置的扩展对接，然后我们通过 OpenTelemetry 去接入阿里云的可观测系统；第二阶段，我们准备通过 Middleware 或 Suite 的方式对接开放服务治理的能力。现阶段的工作主要是对 Kitex 的 [Nacos registry](https://github.com/kitex-contrib/registry-nacos) 展开了优化，然后结合  OpenTelemetry 这一扩展，去重构 Kitex Easy-Note  Demo。
 
-**Q: 单测每次 CI 都会出报告吗？上次想加到 awesome go ，但是他们对覆盖度有要求。**
+**Q：单测每次 CI 都会出报告吗？上次想加到 awesome go ，但是他们对覆盖度有要求。**
 
 A：可以点进 CI 的 Show all checks 查看测试报告，同时，在[单测新手任务](https://github.com/cloudwego/kitex/issues/372)，项目整体的单测覆盖率提高之后，我们也可以去设置覆盖率的门禁，后续 CI 检测会去检查单测覆盖率，并且输出到 PR 评论中。
 
