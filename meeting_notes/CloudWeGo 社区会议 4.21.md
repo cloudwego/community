@@ -2,7 +2,7 @@
 
 **参会人员：** YangruiEmma, liu-song, baiyutang, yccpt, AshleeT, CoderPoet, Quan Hu, li-jin-gou, JZK-Keven, EastHorse, GuangmingLuo, HeyJavaBean, jayantxie, Qiheng Zhou, Shizheng Hou, Jiajun Shan, Tieju Wang, yiyun, Wanqi Su, Zheming Li, Xianjie Yao, LoveScotty.
 
-**会前必读：** http://www.cloudwego.io/；
+**会前必读：** http://www.cloudwego.io/;
               https://github.com/cloudwego
 
 ## 议程 1 ：新成员自我介绍
