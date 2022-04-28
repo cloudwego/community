@@ -1,6 +1,9 @@
-会前必读：http://www.cloudwego.io/；https://github.com/cloudwego
+**会议主题：** CloudWeGo 社区会议 2.25
 
+**参会人员：** Joway, YangruiEmma, liu-song, AshleeT, li-jin-gou, Hchenn, PureWhiteWu, GuangmingLuo, baiyutang, yccpt, horizonzy. 
 
+**会前必读：** http://www.cloudwego.io/;
+              https://github.com/cloudwego
 
 ## 议程 1 ：自我介绍+历史贡献介绍
 内容：参会人员轮流开展了自我介绍，包含个人基本情况、历史贡献、个人未来规划、相关建议。

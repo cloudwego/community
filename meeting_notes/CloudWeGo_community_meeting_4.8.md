@@ -1,7 +1,9 @@
-会议主题：CloudWeGo 社区会议第四期
+**会议主题：** CloudWeGo 社区会议 4.8
 
-会前必读：http://www.cloudwego.io/ ；
-         https://github.com/cloudwego
+**参会人员：** YangruiEmma, liu-song, yccpt, AshleeT, GuangmingLuo, CoderPoet, HeyJavaBean, jayantxie, JZK-Keven, Xiwen Li, joway, bodhisatan
+
+**会前必读：** http://www.cloudwego.io/; 
+              https://github.com/cloudwego
 
 ## 议程 1 ：新成员自我介绍
 
