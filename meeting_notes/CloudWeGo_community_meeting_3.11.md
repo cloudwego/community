@@ -1,10 +1,9 @@
 **会议主题：** CloudWeGo 社区会议 3.11
 
-**参会人员：** CoderPoet, liu-song, GuangmingLuo, Zheming Li, YangruiEmma, li-jin-gou, simon0-o, Dianjun Suo, jasondeng1997, lvnszn, baiyutang, Duslia997, joway, Xuewu Jiang, AshleeT, yccpt. 
+**参会人员：** CoderPoet, liu-song, GuangmingLuo, Zheming Li, YangruiEmma, li-jin-gou, simon0-o, Dianjun Suo, jasondeng1997, lvnszn, baiyutang, Duslia, joway, Xuewu Jiang, AshleeT, yccpt. 
 
 **会前必读：** http://www.cloudwego.io/;
               https://github.com/cloudwego
-
 
 ## 议程 1 ：新人自我介绍
 
