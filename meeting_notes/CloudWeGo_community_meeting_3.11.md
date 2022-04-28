@@ -1,6 +1,10 @@
-会议主题：CloudWeGo 社区会议第二期
+**会议主题：** CloudWeGo 社区会议 3.11
 
-会前必读：http://www.cloudwego.io/；https://github.com/cloudwego
+**参会人员：** AshleeT, yccpt, CoderPoet, liu-song, GuangmingLuo, Zheming Li, YangruiEmma, li-jin-gou, simon0-o, Dianjun Suo, jasondeng1997, lvnszn, baiyutang,   Xuran Yinjoway, Xuewu Jiang. 
+
+**会前必读：** http://www.cloudwego.io/;
+              https://github.com/cloudwego
+
 
 ## 议程 1 ：新人自我介绍
 
