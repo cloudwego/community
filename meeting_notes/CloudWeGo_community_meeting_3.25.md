@@ -1,7 +1,9 @@
-会议主题：CloudWeGo 社区会议第三期
+**会议主题：** CloudWeGo 社区会议 3.25
 
-会前必读：http://www.cloudwego.io/；
-         https://github.com/cloudwego
+**参会人员：** YangruiEmma, liu-song, baiyutang, yccpt, AshleeT, Authorixy, Dianjun Suo, bodhisatan, CoderPoet, Quan Hu, li-jin-gou, JZK-Keven, EastHorse, GuangmingLuo, Xiwen Li, joway, jasondeng1997, HeyJavaBean. 
+
+**会前必读：** http://www.cloudwego.io/;
+              https://github.com/cloudwego
 
 ## 议程 1 ：新成员自我介绍
 
