@@ -1,7 +1,15 @@
 # Community membership
 
 This doc outlines the responsibilities of contributor roles in CloudWeGo. 
-The CloudWeGo project is subdivided into sub-projects under kitex (kitex & kitex-benchmark & kitex-example), netpoll(netpoll & netpoll-benchmark), thriftgo(thriftgo & thrfit-gen-validator), docs(cloudwego.github.io & community) and others if may. 
+
+The CloudWeGo project is subdivided into sub-projects under :
+- Kitex (Kitex & kitex-benchmark & kitex-example)
+- Hertz (Hertz & hertz-benchmark & hertz-example)
+- Netpoll(Netpoll & netpoll-benchmark)
+- Thriftgo(Thriftgo & Frugal & thrfit-gen-validator)
+- Docs(cloudwego.github.io & community)
+- Others if may. 
+
 Responsibilities for roles are scoped to these sub-projects (repos).
 
 | **Role**   | **Responsibilities**                                  | **Requirements**                                             | **Defined by**                                               |
@@ -19,7 +27,7 @@ New contributors should be：
   
 Active contributors may apply to become Members, see below requirements for details
 
-## Member
+## Member(Committer)
 
 Members are continuously active contributors in the community.
 - They can have issues and PRs assigned to them.
@@ -38,7 +46,7 @@ Members are continuously active contributors in the community.
 - Sponsored by two approvers or maintainers (sponsors). Note the following requirements for sponsors:
   - Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc
   - Sponsors must be approvers or maintainers in at least one CODEOWNERS file in any repo in the CloudWeGo organization
-- Open an issue against the CloudWeGo/community repo
+- Open an [issue](https://github.com/cloudwego/community/issues) against the CloudWeGo/community repo
   - Ensure your sponsors are @mentioned on the issue
   - Complete every item on the checklist (preview the current version of the template)
   - Make sure that the list of contributions included is representative of your work on the project
