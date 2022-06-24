@@ -4,8 +4,6 @@
 
 **会前必读**：http://www.cloudwego.io/；https://github.com/cloudwego
 
-**录屏链接**：https://bytedance.feishu.cn/minutes/obcn3zdn1g46avv887i11ms9?from=from_copylink
-
 ### 议程 1 ：社区近期项目开源规划介绍 @GuangmingLuo
 
 1. 介绍新的开源项目 Frugal，欢迎感兴趣的同学熟悉并参与此项目。Kitex 下一个版本正式支持 Frugal，Kitex 新版本发布之后正式对外发文分享与宣传 Frugal。
