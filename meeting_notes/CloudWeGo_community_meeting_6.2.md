@@ -2,9 +2,7 @@
 
 **参会人** ：YangruiEmma, baiyutang, joway, yccpt, Huang Yuting, CoderPoet, li-jin-gou, GuangmingLuo, simon0-o, yiyun, JZK-Keven, bodhisatan, Jacob953, cyyolo, debug-LiXiwen, baize, zstone12, You Gaoming, HeyJavaBean, jayantxie, Skyenought
 
-**会前必读** ：[http://www.cloudwego.io/](http://www.cloudwego.io/)；[https://github.com/cloudwego](https://github.com/cloudwego )
-
-**录屏链接** ：[https://bytedance.feishu.cn/minutes/obcndl4s8824576wd42ij327?from=from_copylink](https://bytedance.feishu.cn/minutes/obcndl4s8824576wd42ij327?from=from_copylink)
+**会前必读** ：http://www.cloudwego.io/；https://github.com/cloudwego
 
 ### 议程 1 ：新人介绍
 
@@ -15,13 +13,13 @@
 
 ### 议程 2 ：Frugal 项目介绍 @simon0-o
 
-1. 相关文档：[https://mp.weixin.qq.com/s/b17bSqx9y5AIH3WEx1haog](https://mp.weixin.qq.com/s/b17bSqx9y5AIH3WEx1haog)
+1. 相关文档：https://mp.weixin.qq.com/s/b17bSqx9y5AIH3WEx1haog
 
 ---
 
 ### 议程 3：Integrate Polaris Go SDK to Support Their Service Governance Ability 任务介绍 @jayantxie
 
-1. 地址：[https://github.com/cloudwego/kitex/issues/421](https://github.com/cloudwego/kitex/issues/421)
+1. 地址：https://github.com/cloudwego/kitex/issues/421
    已认领 Issue @debug-LiXiwen
 2. 继注册发现能力之后，再以 Polaris 为服务治理中心，集成服务治理能力。熔断部分会在 Kitex 中注入 Middleware，通过 Middleware 上报每次请求结果。上报时需要 Polaris 实例，所以需要转换一下，这个转换可以通过缓存用 Key 去做查找。
 3. 此 PR 已经支持外部限流器的实现。可以通过扩展接口传入外部实现的限流器，对接 Polaris 的限流功能。
@@ -47,5 +45,5 @@
 
 **Kitex** v0.3.2 已发布！
 
-[https://github.com/cloudwego/kitex/releases/tag/v0.3.2](https://github.com/cloudwego/kitex/releases/tag/v0.3.2)
+https://github.com/cloudwego/kitex/releases/tag/v0.3.2
 
