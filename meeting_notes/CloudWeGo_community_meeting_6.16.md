@@ -2,13 +2,11 @@
 
 **参会人** ：YangruiEmma, joway, yccpt, CoderPoet, GuangmingLuo, simon0-o, yiyun, bodhisatan, Jacob953, cyyolo, HeyJavaBean, Skyenought, Quan Hu, ppzqh, ZhangHanAA, Suo Dianjun, Yin Xuran
 
-**会前必读** ：[http://www.cloudwego.io/](http://www.cloudwego.io/)；[https://github.com/cloudwego](https://github.com/cloudwego)
-
-**录屏链接**：[https://bytedance.feishu.cn/minutes/obcnm77t6ah99k1y8hn6rq94](https://bytedance.feishu.cn/minutes/obcnm77t6ah99k1y8hn6rq94)
+**会前必读** ：http://www.cloudwego.io/；https://github.com/cloudwego
 
 ### 议程 1 ：Hertz 项目介绍 @Yin Xuran
 
-1. **项目地址：** [https://github.com/cloudwego/hertz/blob/develop/README_cn.md](https://github.com/cloudwego/hertz/blob/develop/README_cn.md)
+1. **项目地址：** https://github.com/cloudwego/hertz/blob/develop/README_cn.md
 2. **项目背景：** Hertz 之前，字节跳动内部使用的 HTTP 框架是基于 Gin 进行了一层封装。存在的问题：Gin 出现 Bug 无法修复；难以迭代支持一些 Feature；随着业务发展性能不足逐渐显现，且难以改变。
 3. **Hertz 定位 ：**
 
@@ -31,7 +29,7 @@
 
 ### 议程 2 ：Hertz Swagger & JWT Middleware @bodhisatan
 
-1. Issue 地址：[https://github.com/hertz-contrib/swagger](https://github.com/hertz-contrib/swagger)；[https://github.com/hertz-contrib/jwt](https://github.com/hertz-contrib/jwt)
+1. Issue 地址：https://github.com/hertz-contrib/swagger；https://github.com/hertz-contrib/jwt
 2. 贡献了 Hertz 的两个插件，Swagger 和 JWT。Fork 了 Gin 排名比较高的对应的仓库，然后对赫兹做适配，争取让开发者比较方便的从 Gin 切换到 Hertz。过程中需要看一些赫兹的接口源码，保证 Hertz 和 Gin 的表现相同。
 3. 对 Hertz 源码感兴趣的初学者可以从这里入手，建议社区也可以考虑把一些 Gin 里面常见的中间件以  First-good-issue 的形式开放。
 
@@ -39,7 +37,7 @@
 
 ### 议程 3：CloudWeGo “全新”社区页面介绍 @Skyenought @yiyun
 
-1. 地址：[https://www.cloudwego.io/zh/community/](https://www.cloudwego.io/zh/community/)
+1. 地址：https://www.cloudwego.io/zh/community/
 2. 参考 Google Kubernetes 社区实现，从社区获得相应的图片和文字描述，进行组合。目前上线了中文页面，后续根据社区要求进行改动，比如不定时更新的近期活动可以拆成模板，方便更新。
 
 ---
@@ -55,7 +53,7 @@
 
 **Q**：社区 Committer 的申请要求是什么？
 
-**A**：相关链接：[https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md](https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md)
+**A**：相关链接：https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md
 
 对社区有贡献的同学可以在 Issue 上面提出申请，相关人员会确认是否同意这个同学成为 Committer。一般来讲贡献比较多的同学会被提名，然后让这个同学自己在 Issue 上面申请。当然，如果同学个人觉得自己贡献比较多，也可以自己提名。如果大家同意会在下面回复，同意的人数足够多就可以加入。
 
@@ -64,12 +62,12 @@
 #### 相关资讯：
 
 6 月 21 日，Hertz 正式官宣开源！
-官宣链接：[https://mp.weixin.qq.com/s/D1Pol8L9F_5-Yte_k4DH8A](https://mp.weixin.qq.com/s/D1Pol8L9F_5-Yte_k4DH8A)
+官宣链接：https://mp.weixin.qq.com/s/D1Pol8L9F_5-Yte_k4DH8A
 
-技术解读：[https://mp.weixin.qq.com/s/RC-BJOTEO7WaEemG96yR6w](https://mp.weixin.qq.com/s/RC-BJOTEO7WaEemG96yR6w)
+技术解读：https://mp.weixin.qq.com/s/RC-BJOTEO7WaEemG96yR6w
 
-5 月 26 日 — 6 月 24 日，CloudWeGo - GLCC 开源编程夏令营开始报名，活动报名链接：[https://mp.weixin.qq.com/s/owd13tN5XfKPQs7DeONWng](https://mp.weixin.qq.com/s/owd13tN5XfKPQs7DeONWng)。
+5 月 26 日 — 6 月 24 日，CloudWeGo - GLCC 开源编程夏令营开始报名，活动报名链接：https://mp.weixin.qq.com/s/owd13tN5XfKPQs7DeONWng。
 
 6 月 25 日，CloudWeGo & 稀土掘金 Meetup 活动直播，邀请到来自字节跳动、森马电商和华兴证券的资深开发者，向社区分享 CloudWeGo 的最新企业落地实践。
-活动链接：[https://mp.weixin.qq.com/s/D93dk-9dw2pQocI4anBXfg](https://mp.weixin.qq.com/s/D93dk-9dw2pQocI4anBXfg)
+活动链接：https://mp.weixin.qq.com/s/D93dk-9dw2pQocI4anBXfg
 
