@@ -6,7 +6,7 @@ The CloudWeGo project is subdivided into sub-projects under :
 - Kitex (Kitex & kitex-benchmark & kitex-example)
 - Hertz (Hertz & hertz-benchmark & hertz-example)
 - Netpoll(Netpoll & netpoll-benchmark)
-- Thriftgo(Thriftgo & Frugal & thrfit-gen-validator)
+- Thriftgo(Thriftgo & Frugal & thrift-gen-validator)
 - Docs(cloudwego.github.io & community)
 - Others if may. 
 
