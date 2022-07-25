@@ -12,7 +12,7 @@ Fan Guangyu, Jacob953, Wang Yafeng, gova, Huang Xiaolong, Zhang Guiyuan, chenzBi
 
 ---
 
-### 议程 2 ：Hertz-Contrib/Limiter 组件分享 **@吕海东 **
+### 议程 2 ：Hertz-Contrib/Limiter 组件分享 @LhdDream
 
 1. 介绍PPT：[过载保护-限流算法.pptx](https://bytedance.feishu.cn/file/boxcnfVCs9Nh6JxfqDkVG2MqyrQ?from=from_copylink)
 2. 相关讨论：
