@@ -10,7 +10,7 @@ The CloudWeGo project is subdivided into subprojects under:
 - Monoio (Monoio & Monoio ecosystem)
 - Serdes (Thriftgo & Frugal & Fastpb & Sonic & thrift-gen-validator)
 - Pilota (Pilota)
-- Community (cloudwego.github.io & community)
+- Website & Docs (cloudwego.github.io & community)
 - Others if may. 
 
 Responsibilities for roles are scoped to these subprojects (repos) defined by GitHub team.
