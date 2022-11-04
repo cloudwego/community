@@ -30,8 +30,8 @@ The project was started at ByteDance.
 
 ## Communication
 
-We want your contributions and suggestions! 
-One of the easiest ways to contribute is to participate in discussions, chat on IM or join the bi-weekly community calls (unavailable for now).
+We want your contributions, ideas and suggestions! 
+One of the easiest ways to get involved is to participate in discussions and chat on IM (including Wechat, Lark & [Slack](https://join.slack.com/t/cloudwego/shared_invite/zt-tmcbzewn-UjXMF3ZQsPhl7W3tEDZboA)).
 
 ![LarkGroup](img/lark_group.png)
 
@@ -39,14 +39,16 @@ One of the easiest ways to contribute is to participate in discussions, chat on 
 
 Reach out with any questions you may have and we'll make sure to answer them as soon as possible and as a community member feel free to jump in and answer questions.
 
-### Community meetings
+### Community meeting
 
-Coming soon.
+Currently, our community meeting is availiable for contributors only. You may contact any maintainer to join the meeting if you are already a contributor.
 
-### blog
+Previous community meeting notes can be find [here](/meeting_notes) for your interest and reference.
 
-The [CloudWeGo blog](https://www.cloudwego.io/blog/) has regular posts on releases, technical articles and upcoming events. 
-If you would like to author a post, reach out to us with a suggestion.
+### Blog
+
+The [CloudWeGo blog](https://www.cloudwego.io/blog/) has regular posts on releases and technical articles. 
+If you would like to author a post, reach out to us with a suggestion or directly raise a PR [here](https://github.com/cloudwego/cloudwego.github.io/pulls).
 
 ## Get involved
 
