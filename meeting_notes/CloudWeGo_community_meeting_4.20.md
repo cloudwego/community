@@ -9,7 +9,7 @@
 1. kitex 新版本，地址：https://github.com/cloudwego/kitex/releases/tag/v0.5.2
 2. 在以往的 kitex 版本中针对超时都会有一个默认的重试，新版本中为重试添加了一个新的配置项，允许用户对超时默认不进行重试。
 3. 在代码生成工具方面：支持了 windows 系统用户使用 kitex 生成代码。
-4. RPC time out：在以往的版本中对超时的错误码只有一个 RPC time out 的超时，现在支持更细粒度的超时错误码，如可以分辨出在 context 中设置的 deadline 或 cancel 方法。
+4. RPC time out：在以往的版本中对超时的错误码只有一个 RPC time out 的超时，现在支持更细粒度的超时错误类型，如可以分辨出在 context 中设置的 deadline 或 cancel 方法。
 5. thrift fast codec：新增对 unknown fields 的序列化与反序列化。
 
 ---
