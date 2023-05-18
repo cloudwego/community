@@ -5,11 +5,11 @@ This doc outlines the responsibilities of contributor roles in CloudWeGo.
 The CloudWeGo project is subdivided into subprojects under:
 - Kitex (Kitex & Kitex ecosystem & kitex-contrib)
 - Hertz (Hertz & Hertz ecosystem & hertz-contrib)
-- Volo (Volo & Volo ecosystem & volo-rs & Motore)
+- Volo (Volo & Volo ecosystem & volo-rs & Motore & Pilota)
 - Netpoll (Netpoll & Netpoll ecosystem)
 - Monoio (Monoio & Monoio ecosystem)
 - Serdes (Thriftgo & Frugal & Fastpb & Sonic & thrift-gen-validator)
-- Pilota (Pilota)
+- Shmipc (shmipc-spec & shmipc-go)
 - Website & Docs (cloudwego.github.io & community)
 - Others if may. 
 
