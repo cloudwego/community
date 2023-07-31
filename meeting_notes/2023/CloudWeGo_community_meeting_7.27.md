@@ -1,6 +1,6 @@
 **会议主题** ：CloudWeGo 社区会议 7.27
 
-**参会人** ：GuangmingLuo, welkeyever, rogerogers, yiyun, YangruiEmma, liu-song, whalecold, CoderPoet, HeyJavaBean, Xuran, a631807682, joway, ExerciseBook, jasondeng1997, ppzqh, justlorain, Skyenought, hanyu, felix021, ii64, eric, cqqqq777
+**参会人** ：GuangmingLuo, welkeyever, rogerogers, yiyun, YangruiEmma, liu-song, whalecold, CoderPoet, HeyJavaBean, Duslia, a631807682, joway, ExerciseBook, jasondeng1997, ppzqh, justlorain, Skyenought, hanyu, felix021, ii64, eric, cqqqq777
 
 **会前必读** ：http://www.cloudwego.io/ ; https://github.com/cloudwego
 
