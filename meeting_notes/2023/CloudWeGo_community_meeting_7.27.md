@@ -1,6 +1,6 @@
 **会议主题** ：CloudWeGo 社区会议 7.27
 
-**参会人** ：GuangmingLuo, goodbye-babyer, zhquzzuli, welkeyever, rogerogers, yiyun, felix021, whalecold, CoderPoet, Li2CO3, Xuran, a631807682, joway, cqqqq777
+**参会人** ：GuangmingLuo, welkeyever, rogerogers, yiyun, YangruiEmma, liu-song, whalecold, CoderPoet, HeyJavaBean, Xuran, a631807682, joway, ExerciseBook, jasondeng1997, ppzqh, justlorain, Skyenought, hanyu, felix021, ii64, eric, cqqqq777
 
 **会前必读** ：http://www.cloudwego.io/ ; https://github.com/cloudwego
 
@@ -18,15 +18,15 @@
 2. k8s 服务注册与发现原理：
 
    1. 服务注册：当 k8s 的 pod 启动，通过 `readinessProbe` 的配置，定期检查 pod 是否已经准备就绪提供服务，当满足 `readinessProbe` 要求后，k8s 会将容器 IP 真正注册到 service 所属的健康 Endpoints 中，从而能够顺利的被服务发现。所以服务注册的关键在于 `readinessProbe` 的配置，比如一些服务可能启动后会做一系列的初始化操作才能正常提供服务，这是就需要定制化 `readinessProbe`。
-   2. 服务发现：k8s 是通过 DNS 来做服务发现的。默认情况下，cluster IP 全局唯一且不会随着后端的 pod 变化而变化，也就是说，Client 侧服务发现的结果永远只有一个 IP 地址。
+   2. 服务发现：k8s 是通过 DNS 来做服务发现的。默认情况下，Cluster IP 全局唯一且不会随着后端的 pod 变化而变化，也就是说，Client 侧服务发现的结果永远只有一个 IP 地址。
 
 3. 常见优雅停机的问题：
 
    1. Client 视角：
 
-      问题：由于 Client 端永远只能发现一个 CliusterIP，所以 Client 是无法感知到后端 pod 的变化的，也不存在摘除节点的操作。当下游节点开始销毁时，完全依赖 kube-proxy 即时删除 iptables 中对应的 pod IP，如果 kube-proxy 没有及时删除已经销毁的 pod IP，此时就有可能出现创建连接出现问题。
+      问题：由于 Client 端永远只能发现一个 Cliuster IP，所以 Client 是无法感知到后端 pod 的变化的，也不存在摘除节点的操作。当下游节点开始销毁时，完全依赖 kube-proxy 即时删除 iptables 中对应的 pod IP，如果 kube-proxy 没有及时删除已经销毁的 pod IP，此时就有可能出现创建连接出现问题。
 
-      解决方案：使用 k8s headless service。不再使用默认的 cluster IP，要求每个 service 返回全量真实的 pod IP。
+      解决方案：使用 k8s headless service。不再使用默认的 Cluster IP，要求每个 service 返回全量真实的 pod IP。
 
       问题：Client 的负载均衡是在创建连接时保持均衡，而发送的请求在不同连接的均衡依赖应用自己实现。如果 Client 时长连接，当下游节点增加 pod，上游一直没有建立新连接，那新节点可能迟迟无法收到足够多的流量，从而无法真正的负载均衡。
 
