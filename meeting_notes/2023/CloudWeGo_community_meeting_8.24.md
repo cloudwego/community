@@ -8,9 +8,9 @@
 
 1. gRPC 压缩支持：实现了 Kitex gRPC 的压缩功能支持，可以使用例如 gzip 等压缩方法减少 payload 的体积。
 2. GLS：使用 local-session 组件兜底请求上下文，解决了用户没有传递 context 导致的微服务断链问题。
-3. Unknown Fields 无序列化优化：实现无序列化的 unkonwn fields 功能，无序列化 unknown fields 方案在 FastCodec 上性能优化了约6x~7x。详见：[#1017](https://github.com/cloudwego/kitex/pull/1017)
+3. Unknown Fields 无序列化优化：实现无序列化的 unkonwn fields 功能，无序列化 unknown fields 方案在 FastCodec 上性能优化了约 6x~7x。详见：[#1017](https://github.com/cloudwego/kitex/pull/1017)
 4. DynamicGO 集成：在 Kitex 的泛化模块中集成 dynamicgo 以提升 JSON/HTTP 泛化调用性能（+%50~200%）。
-5. 升级 Thriftgo 库依赖至 v0.3.0，支持了 Triftgo 反射功能，可以在运行时获取 IDL 元信息。
+5. 升级 Thriftgo 库依赖至 v0.3.0，支持了 Thriftgo 反射功能，可以在运行时获取 IDL 元信息。
 
 ### 议程二：@bobozhengsir  分享 Volo 新版本功能特性与变更
 
@@ -25,7 +25,7 @@
    - Solution：
      1. Thrift Binary Protocol Scalar Types 是定长编码，提前计算总长度来跳过，将 O(N) 的复杂度降到 O(1)。
      2. 使用循环替换递归。 
-   - How To：升级至 volo 最新版本。
+   - How To：升级至 Volo 最新版本。
 3. Hot Restart：
    - Motivation：维护系统可用性、减少停机时间以及在升级过程中提供无缝的用户体验。
    - Solution：
@@ -55,7 +55,7 @@
 ### 议程五：@Guangming Luo  分享社区其他相关进展 & 组织 QA 讨论
 
 1. 社区新增 Approver：https://github.com/cloudwego/community/issues/71
-2. 官网新增 about 页面：https://www.cloudwego.io/zh/about/
+2. 官网新增 About 页面：https://www.cloudwego.io/zh/about/
 3. 8月16号，社区与 CNCF 合作于新加坡，在新加坡理工大学纽约分校大楼举办了一场云原生技术沙龙，活动回顾：https://mp.weixin.qq.com/s/GctApXgKPkgC4jtPU1m0Sw
-4. CloudWego 参加新加坡国立大学2023 Orbital 暑期项目及优胜者颁奖典礼：https://mp.weixin.qq.com/s/gzXt8-9m9ZWo6aUhGEILRw
+4. CloudWeGo 参加新加坡国立大学 2023 Orbital 暑期项目及优胜者颁奖典礼：https://mp.weixin.qq.com/s/gzXt8-9m9ZWo6aUhGEILRw
 
