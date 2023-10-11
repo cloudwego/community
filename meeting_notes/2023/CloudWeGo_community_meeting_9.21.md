@@ -52,9 +52,9 @@
 4. Hertz 适配 slog 中提供了设置日志等级、设置 slog Handler 与设置输出的 api。
 5. 局限性：无法从 slog 实例中获取 handlerOptions，`SetOutput` 需要重建 logger 实例，目前直接使用的是 `JSONHandler`。
 
-### 议程五：@罗广明 介绍 CWG 2周年 awesome contributor 的评选机制和敬请期待的大礼
+### 议程五：@GuangmingLuo 介绍 CWG 2周年 awesome contributor 的评选机制和敬请期待的大礼
 
-1. 评选机制：基于 github 上的 pr、issue、push 等 action 的数量衡量贡献者，包括了 cloudwego、 Kitex contribute、Hertz contribute 以及 bytedance 仓库下属 cloudwego 运营项目，统计时间为 2022.08.24～2023.08.24 。
+1. 评选机制：基于 github 上的 pr、issue、push 等 action 的数量衡量贡献者，包括了 cloudwego、 Kitex contrib、Hertz contrib 以及 bytedance 仓库下的 Monoio、Sonic，统计时间为 2022.08.24～2023.08.24 。
 2. 加分项：发布文章，参与 CSG 活动以及代表社区对外参加大会。
 3. 贡献者分为年度突出贡献者、年度杰出贡献者与年度优秀贡献者，礼品分别对应为 PICO，科大讯飞电子阅读器，无线充电器，具体名单后续于公众号公布。
 4. 将于十月二十一号下午在北京字节跳动工区举办线下活动，欢迎所有贡献者参与。
