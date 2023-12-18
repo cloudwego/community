@@ -4,7 +4,7 @@
 
 **会前必读** ：http://www.cloudwego.io/ ; https://github.com/cloudwego
 
-### 议程一：Hertz [sse](https://github.com/hertz-contrib/sse) client 介绍@ViolaPioggia
+### 议程一：Hertz [sse](https://github.com/hertz-contrib/sse) client 介绍 @ViolaPioggia
 
 1. 项目描述：sse 协议是一种基于 HTTP 的应用层网络协议，用于服务端推送，基于 Eventstream 的事件流。官方文档：https://www.cloudwego.io/zh/docs/hertz/tutorials/basic-feature/protocol/sse/；GitHub 仓库：https://github.com/hertz-contrib/sse
 2. 结果描述：
