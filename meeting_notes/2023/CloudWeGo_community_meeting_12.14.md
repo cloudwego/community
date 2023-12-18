@@ -26,7 +26,7 @@
         2. 代理服务器与后端服务器建立 WebSocket 连接
         3. 客户端与代理服务器建立 WebSocket 连接
         4. 连接通信
-4. 示例代码：于 https://github.com/hertz-contrib/reverseproxy 提供了使用示例代码，并简单介绍。
+4. 示例代码：于 https://github.com/cloudwego/hertz-examples/tree/main/reverseproxy/websocket 提供了使用示例代码，并简单介绍。
 
 ### 议程三：Kitex [obs](https://github.com/kitex-contrib/obs-opentelemetry) slog 扩展介绍 @XZ0730
 
