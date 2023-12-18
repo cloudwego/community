@@ -45,7 +45,7 @@
 4. 存储：目前强依赖于 Mysql 用作元数据存储，Redis 用作服务注册与发现。但平台具有扩展性，可通过实现接口的方式来支持其他数据库。
 5. 详细介绍了平台的基本使用。
 
-### 议程五：[Dynamicgo](https://github.com/cloudwego/dynamicgo) 支持高性能 Protobuf 动态代理 @yinkehan
+### 议程五：[Dynamicgo](https://github.com/cloudwego/dynamicgo) 支持高性能 Protobuf 动态代理 @khan-yin
 
 1. 背景：Dynamicgo 是字节跳动自研的高性能 Golang RPC 编解码基础库，用于实现**高性能 RPC 动态代理**场景；Protobuf 是一种跨平台、可扩展的序列化数据传输协议，目前有广泛应用。目前业界主流的 Protobuf 协议基础库并不能满足需求，故设计了高性能Protobuf 协议动态泛化调用链路。PR：https://github.com/cloudwego/dynamicgo/pull/37
 2. Protobuf 设计思想：
