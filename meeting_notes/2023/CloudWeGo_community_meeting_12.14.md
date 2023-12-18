@@ -35,7 +35,7 @@
     1. 实现 Kitex `klog.FullLogger` 接口，使得 slog 适配 klog
     2. 自定义实现 `traceHandler`
     3. 在 `JSONHandler` 的基础上扩展 `Handle`方法，处理链路追踪的日志记录
-3. Slog [More info](https://link.zhihu.com/?target=https%3A//go.googlesource.com/proposal/%2B/master/design/56345-structured-logging.md)
+3. Slog [More info](https://go.googlesource.com/proposal/+/master/design/56345-structured-logging.md)
 
 ### 议程四：一站式 RPC 调用介绍 @StellarisW
 
