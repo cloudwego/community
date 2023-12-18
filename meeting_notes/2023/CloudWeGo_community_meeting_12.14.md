@@ -28,7 +28,7 @@
         4. 连接通信
 4. 示例代码：于 https://github.com/hertz-contrib/reverseproxy 提供了使用示例代码，并简单介绍。
 
-### 议程三：Kitex [obs](https://github.com/kitex-contrib/obs-opentelemetry) slog 扩展介绍 @张鑫
+### 议程三：Kitex [obs](https://github.com/kitex-contrib/obs-opentelemetry) slog 扩展介绍 @XZ0730
 
 1. slog 简介：slog 是 Go 1.21 版本新增的结构化日志库，核心为 `Logger` 结构体和 `Handler` 接口。用户可以通过实现 `Handler` 接口实现自定义日志操作。
 2. obs slog 扩展思路：
@@ -37,7 +37,7 @@
     3. 在 `JSONHandler` 的基础上扩展 `Handle`方法，处理链路追踪的日志记录
 3. Slog [More info](https://link.zhihu.com/?target=https%3A//go.googlesource.com/proposal/%2B/master/design/56345-structured-logging.md)
 
-### 议程四：一站式 RPC 调用介绍 @王鑫
+### 议程四：一站式 RPC 调用介绍 @StellarisW
 
 1. 背景：实现调用代码的自动化与平台化，用户更新 IDL 文件后由平台自动根据 IDL 文件生成代码，使得用户只需关心生成代码的仓库即可。
 2. 架构：平台架构主要分为两部分，API 服务与 Agent 服务，API 服务充当调度器，通过一致性哈希算法下发任务到 Agent 服务，Agent 服务执行具体的任务。
@@ -45,7 +45,7 @@
 4. 存储：目前强依赖于 Mysql 用作元数据存储，Redis 用作服务注册与发现。但平台具有扩展性，可通过实现接口的方式来支持其他数据库。
 5. 详细介绍了平台的基本使用。
 
-### 议程五：[Dynamicgo](https://github.com/cloudwego/dynamicgo) 支持高性能 Protobuf 动态代理 @尹可汗
+### 议程五：[Dynamicgo](https://github.com/cloudwego/dynamicgo) 支持高性能 Protobuf 动态代理 @yinkehan
 
 1. 背景：Dynamicgo 是字节跳动自研的高性能 Golang RPC 编解码基础库，用于实现**高性能 RPC 动态代理**场景；Protobuf 是一种跨平台、可扩展的序列化数据传输协议，目前有广泛应用。目前业界主流的 Protobuf 协议基础库并不能满足需求，故设计了高性能Protobuf 协议动态泛化调用链路。PR：https://github.com/cloudwego/dynamicgo/pull/37
 2. Protobuf 设计思想：
