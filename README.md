@@ -17,7 +17,7 @@ Other Documents
 ## Introduction
 
 CloudWeGo is Golang-centric middleware that can be used to quickly build enterprise-class cloud native architectures. 
-It contains many components, including the RPC framework Kitex, the basic network library Netpoll, thrfitgo, and netpoll-http2. 
+It contains many components, including the RPC framework Kitex, the HTTP framework Hertz and the basic network library Netpoll. 
 By combining the community's excellent open source products, developers can quickly build a complete set of micro-service systems.
 
 Visit [cloudwego.io](https://cloudwego.io) for more information about CloudWeGo
@@ -27,22 +27,9 @@ Visit [cloudwego.io](https://cloudwego.io) for more information about CloudWeGo
 CloudWeGo is an open source project with an active development community. 
 The project was started at ByteDance.
 
-## Communication
-
-We want your contributions, ideas and suggestions! 
-One of the easiest ways to get involved is to participate in discussions and chat on IM (including Wechat, Lark & [Slack](https://join.slack.com/t/cloudwego/shared_invite/zt-tmcbzewn-UjXMF3ZQsPhl7W3tEDZboA)).
-
-![LarkGroup](img/lark_group.png)
-
 ### Questions and issues
 
 Reach out with any questions you may have and we'll make sure to answer them as soon as possible and as a community member feel free to jump in and answer questions.
-
-### Community meeting
-
-Currently, our community meeting is availiable for contributors only. You may contact any maintainer to join the meeting if you are already a contributor.
-
-Previous community meeting notes can be find [here](/meeting_notes) for your interest and reference.
 
 ### Blog
 
